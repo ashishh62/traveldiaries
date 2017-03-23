@@ -1,4 +1,4 @@
-package com.traveldiaries.Repositories;
+package com.traveldiaries.repositories;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
