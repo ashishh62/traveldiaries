@@ -1,7 +1,8 @@
 package com.traveldiaries.dao;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.traveldiaries.Repositories.UserDetailsRepository;
+
 import com.traveldiaries.models.UserDetails;
+import com.traveldiaries.repositories.UserDetailsRepository;
 
 public class UserDetailsDaoImpl implements UserDetailsDao {
 	
