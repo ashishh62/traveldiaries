@@ -2,14 +2,15 @@ package com.traveldiaries.beans;
 
 import java.util.Date;
 
+
 public class UserDetailsRequestBean {
 	
 	private String firstName;
 	private String lastName;
-	private Date dob;
+	private String dob;
 	private String gender;
 	private String emailAddress;
-	private Integer contactNumber;
+	private String contactNumber;
 	
 	public String getFirstName() {
 		return firstName;
@@ -23,10 +24,10 @@ public class UserDetailsRequestBean {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public Date getDob() {
+	public String getDob() {
 		return dob;
 	}
-	public void setDob(Date dob) {
+	public void setDob(String dob) {
 		this.dob = dob;
 	}
 	public String getGender() {
@@ -41,10 +42,10 @@ public class UserDetailsRequestBean {
 	public void setEmailAddress(String emailAddress) {
 		this.emailAddress = emailAddress;
 	}
-	public Integer getContactNumber() {
+	public String getContactNumber() {
 		return contactNumber;
 	}
-	public void setContactNumber(Integer contactNumber) {
+	public void setContactNumber(String contactNumber) {
 		this.contactNumber = contactNumber;
 	}
 	

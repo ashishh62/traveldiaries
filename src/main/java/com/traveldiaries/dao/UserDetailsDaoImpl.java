@@ -3,7 +3,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.traveldiaries.models.UserDetails;
 import com.traveldiaries.repositories.UserDetailsRepository;
+import org.springframework.stereotype.Repository;
 
+
+@Repository
 public class UserDetailsDaoImpl implements UserDetailsDao {
 	
 	@Autowired
